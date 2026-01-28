@@ -41,7 +41,7 @@ Uses the official [Cloudmersive Virus Scan Java SDK v11](https://central.sonatyp
 ## Example output
 
 ```
-File  : C:\test\en-us_windows_server_2022_x64_dvd_620d7eac.iso
+File  : C:\test\inputfile.iso
 Size  : 5,550,684,160 bytes (5.17 GB)
 
 API Key    : ****

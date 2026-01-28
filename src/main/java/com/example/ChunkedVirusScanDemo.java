@@ -1,15 +1,15 @@
 package com.example;
 
+import java.io.File;
+import java.time.Duration;
+import java.util.List;
+
 import org.openapitools.client.ApiClient;
 import org.openapitools.client.ApiException;
 import org.openapitools.client.Configuration;
 import org.openapitools.client.api.ScanApi;
 import org.openapitools.client.model.VirusFound;
 import org.openapitools.client.model.VirusScanAdvancedResult;
-
-import java.io.File;
-import java.time.Duration;
-import java.util.List;
 
 /**
  * Demonstrates uploading a large file (potentially multi-GB) to the Cloudmersive
@@ -29,7 +29,7 @@ public class ChunkedVirusScanDemo {
     // ---------------------------------------------------------------
 
     /** Path to the file to scan. Change this to point at your target file. */
-    private static final String FILE_PATH = "C:\\test\\en-us_windows_server_2022_x64_dvd_620d7eac.iso";
+    private static final String FILE_PATH = "C:\\test\\inputfile.iso";
 
     /** Your Cloudmersive API key. Get one at https://cloudmersive.com */
     private static final String API_KEY = "YOUR-API-KEY";
